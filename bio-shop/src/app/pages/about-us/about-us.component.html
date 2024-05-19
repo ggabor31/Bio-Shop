@@ -1,0 +1,30 @@
+<div [ngClass]="{'about-container': isAbout}">
+  <h2 class="about-us-heading">Rólunk</h2>
+  <div class="about-us-content">
+    <p>
+      Üdvözöllek a BioShop webáruház oldalán! Célunk, hogy minőségi, egészséges és fenntartható élelmiszereket
+      kínáljunk vásárlóinknak. Termékeink között megtalálhatod a friss zöldségeket, gyümölcsöket, bio termékeket,
+      valamint különleges és egzotikus alapanyagokat is. Az élelmiszerek mellett számos környezetbarát és természetes
+      háztartási cikket is kínálunk, hogy segítsünk fenntarthatóbb életmódot kialakítani.
+    </p>
+    <p>
+      A BioShop csapata nagy hangsúlyt fektet a minőségi szolgáltatásra és az ügyfélelégedettségre. Ha kérdésed van a
+      termékeinkkel vagy a rendelési folyamattal kapcsolatban, ne habozz felvenni velünk a kapcsolatot! Szívesen
+      segítünk és tanácsot adunk, hogy a vásárlásod élménnyé váljon.
+    </p>
+    <p>
+      Köszönjük, hogy minket választottál, és reméljük, hogy hamarosan újra látunk a BioShop webáruházban!
+    </p>
+    <div class="contact-info">
+      <p>Ha kérdésed van, keress minket:</p>
+      <mat-card-content>
+        <p><mat-icon>call</mat-icon>Telefon: +36 1 123 4567</p>
+        <p><mat-icon>email</mat-icon> Email: infokukak64bioshop.hu</p>
+      </mat-card-content>
+      <p>{{ currentDate | dateFormat }}</p>
+      <p>{{ welcomeMessage }}</p>
+
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+<div class="products">
+  <div class="product" *ngFor="let product of products">
+    <div class="product-inner">
+      <img [src]="product.imageUrl" alt="Product Image" class="product-image">
+      <h3 class="product-name">{{ product.name }}</h3>
+      <p class="product-price">Ár: HUF {{ product.price }}</p>
+      <div class="counter">
+        <button (click)="decrement(product)">-</button>
+        <span>{{ product.count }}</span>
+        <button (click)="increment(product)">+</button>
+      </div>
+    </div>
+    <div class="button-container">
+      <button (click)="addToCart(product)" mat-fab color="primary" aria-label="Eltávolítás">
+        <mat-icon>shopping_cart</mat-icon>
+      </button>
+      <button (click)="goToCart()">
+        <mat-icon>shopping_cart_checkout</mat-icon>
+      </button>
+    </div>
+  </div>
+</div>

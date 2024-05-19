@@ -1,0 +1,15 @@
+<div class="container">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>Üdvözöljük a Bioshop webáruházban!</mat-card-title>
+      <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+    </mat-card-header>
+    <mat-card-content>
+      <p>Keresse meg nálunk a legfrissebb, természetes összetevőkből készült biotermékeket, és válogasson kiváló minőségű termékeink közül.</p>
+      <p>Az egészség és a fenntarthatóság iránti elkötelezettségünkkel a Bioshop a legjobb választás az Ön és környezete számára.</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button *ngIf="showShoppingButton" mat-raised-button color="primary" routerLink="/products">Vásárlás most</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

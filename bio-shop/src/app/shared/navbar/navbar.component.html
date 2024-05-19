@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>My App</span>
+    <span class="spacer"></span>
+    <a mat-button routerLink="/">Main</a>
+    <a mat-button routerLink="/products">Products</a>
+    <a mat-button routerLink="/cart">Cart</a>
+    <a mat-button *ngIf="!(loggedInUser)" routerLink="/login">Login</a>
+    <a mat-button *ngIf="(loggedInUser)"routerLink="/login" (click)="logout()">Logout</a>
+    <a mat-button routerLink="/signup">Signup</a>
+    <a mat-button routerLink="/about-us">About Us</a>
+    <a mat-button routerLink="/my-profile">My Profile</a>
+    <a mat-button routerLink="/review">Reviews</a>
+  </mat-toolbar-row>
+</mat-toolbar>
