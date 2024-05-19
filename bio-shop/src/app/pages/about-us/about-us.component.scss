@@ -1,0 +1,16 @@
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #7c73e6;
+
+  .about-us-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .about-us-content {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}

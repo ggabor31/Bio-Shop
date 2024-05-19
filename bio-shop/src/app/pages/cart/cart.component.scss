@@ -1,0 +1,43 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.cart-item img {
+  width: 100px; /* Állítsd be a megfelelő szélességet */
+  height: auto;
+  margin-right: 10px;
+}
+
+.cart-item h3, .cart-item p {
+  margin: 0 10px;
+}
+
+.cart-item button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.summary {
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "webkert2024-bio-shop": {
+      "hosting": {
+        "bio-shop": [
+          "webkert2024-bio-shop"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "webkert2024-bio-shop"
+  }
+}
